@@ -51,3 +51,23 @@ lineas horizontales
 ***
 ---
 ___
+
+
+tipos de letra  
+*cursiva*  
+_cursiva_  
+**negrita**  
+__negrita__  
+***cursiva y negrita***  
+
+Enlaces  
+[enlace en línea](http://www.limni.net)
+
+Me llamo Javier Cristóbal y tengo un blog sobre [productividad mac][blog].
+
+En dicha [web][blog] recopilo artículos sobre todo lo relacionado con automatización, gestión y eficiencia.
+
+[blog]: http://limni.net/blog/
+
+Referecinas
+https://markdown.es/sintaxis-markdown
