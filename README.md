@@ -61,7 +61,9 @@ __negrita__
 ***cursiva y negrita***  
 
 Enlaces  
-[texto que se muestra](http://www.enlace.com)
+http://www.enlace.com  
+<http://www.enlace.com>  
+[texto que se muestra](http://www.enlace.com)  
 
 Enlace por referencia [mi enlace][web].
 
@@ -90,11 +92,16 @@ def foo():
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
-1. Item 1
-3. Item 2
+1. Item 1  
+1. Item 2  
 1. Item 3  
-    5. Item 3a
-    1. Item 3b
+    1. Item 3a  
+    1. Item 3b  
+        1. item 3ba  
+        1. item 3bb  
+    1. item 3c 
+    1. item 3d  
+1. item 4
  
 Referencias
 https://markdown.es/sintaxis-markdown
