@@ -92,6 +92,14 @@ Y de nuevo regresamos al [primer enlace][otro lugar].
 [otro lugar]: www.github.com  
 [otro-enlace]: www.google.com  
 
+¿Quiere ver [algo divertido][un lugar divertido]?
+
+Bien, tengo [el sitio web para usted][otro sitio divertido]!
+
+[un lugar divertido]:(www.zombo.com)
+[otro sitio divertido]:(www.stumbleupon.com)
+
+
 ## Codigo
 ```javascript
 function fancyAlert(arg) {
