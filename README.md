@@ -61,16 +61,15 @@ __negrita__
 ***cursiva y negrita***  
 
 Enlaces  
-[enlace en línea](http://www.limni.net)
+[texto que se muestra](http://www.enlace.com)
 
-Me llamo Javier Cristóbal y tengo un blog sobre [productividad mac][blog].
+Enlace por referencia [mi enlace][web].
 
-En dicha [web][blog] recopilo artículos sobre todo lo relacionado con automatización, gestión y eficiencia.
+El mismo enlace [el mismo enlace][web].
 
-[blog]: http://limni.net/blog/
+[web]: http://enlace.com
 
-Referecinas
-https://markdown.es/sintaxis-markdown
+
 
 ![Texto alternativo](/ruta/a/la/imagen.jpg)
 
@@ -81,9 +80,22 @@ function fancyAlert(arg) {
   }
 }
 ```
-
+```python
+def foo():
+    if not bar:
+        return True
+````
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
+1. Item 1
+3. Item 2
+1. Item 3  
+    5. Item 3a
+    1. Item 3b
+ 
+Referencias
+https://markdown.es/sintaxis-markdown
+   
