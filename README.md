@@ -50,28 +50,39 @@ segunda linea
 
 > Cita en uno o varios parrafos (blockquote).  
 segunda linea
->> cita anidada  
+>> cita anidada
+>>> subcita anidada
+>
+> retorno
 
+>sdgdg
 # Listas
 ````markdown
 * una 
 - otra
 + otra mas
-  + subitem . doble espacio o tab
+  + subitem. doble espacio o tab
     * subsubitem
 * otro 
 ````
 * una 
 - otra
 + otra mas
-  + subitem . doble espacio o tab
+  + subitem  
     * subsubitem
 * otro 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
-
+```markdown
+1. Item 1  
+1. Item 2  
+1. Item 3  
+    1. Item 3a  
+    1. Item 3b  
+        1. item 3ba  
+        1. item 3bb  
+    1. item 3c 
+    1. item 3d  
+1. item 4
+````
 1. Item 1  
 1. Item 2  
 1. Item 3  
@@ -83,14 +94,35 @@ segunda linea
     1. item 3d  
 1. item 4
 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+
+
 
 # lineas horizontales
+````markdown
+***
+---
+___
+
+````
 ***
 ---
 ___
 
 
-# tipos de letra  
+# emfasis   
+````markdown
+*cursiva*  
+_cursiva_  
+**negrita**  
+__negrita__  
+***cursiva y negrita***  
+~~this~~ 
+````
 *cursiva*  
 _cursiva_  
 **negrita**  
