@@ -3,17 +3,19 @@ Titulo
 ````markdown
 Esto es un parrafo. Enter, Enter ...
 
-Otro parrafo. Barra espaciadora, Enter.  
+Otro parrafo. Espacio, Espacio.  
 Salto de linea en un parrafo.  
 ````
-Esto es un parrafo. Enter, Enter ...
+Esto es un parrafo.  
 
-Otro parrafo. Barra espaciadora, Enter.  
+Otro parrafo.  
 Salto de linea en un parrafo.   
 
 
-# Encabezados
+## Encabezados
+Para encabezados 1 es valido # o = debajo del texto. Para encabezados 2: ## o - debajo del texto
 ````markdown
+
 # Header 1  
 Header 1
 =
@@ -37,25 +39,34 @@ Header 2
 ###### Header 6 
 
 # Citas
+````markdown
 > Cita  
 
- > Blockquote. Espacio, Espacio, Enter  
+> Cita en uno o varios parrafos (blockquote). **Espacio, Espacio, Enter**  
 segunda linea
 >> cita anidada  
-  
- 
+````
+> Cita  
+
+> Cita en uno o varios parrafos (blockquote).  
+segunda linea
+>> cita anidada  
+
 # Listas
+````markdown
 * una 
 - otra
 + otra mas
   + subitem . doble espacio o tab
     * subsubitem
-
-* 1. una
-    * 1. dos
-        * 1.  rty
-* 3. tres
-
+* otro 
+````
+* una 
+- otra
++ otra mas
+  + subitem . doble espacio o tab
+    * subsubitem
+* otro 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
