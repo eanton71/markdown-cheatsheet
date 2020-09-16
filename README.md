@@ -1,5 +1,11 @@
 Titulo 
 ===
+````markdown
+Esto es un parrafo. Enter, Enter ...
+
+Otro parrafo. Barra espaciadora, Enter.  
+Salto de linea en un parrafo.  
+````
 Esto es un parrafo. Enter, Enter ...
 
 Otro parrafo. Barra espaciadora, Enter.  
@@ -7,19 +13,26 @@ Salto de linea en un parrafo.
 
 
 # Encabezados
-    # Header 1 
+````markdown
 # Header 1  
 Header 1
 =
-    ## Header 2  
 ## Header 2
 Header 2
--
-    ### Header 3
+- 
 ### Header 3
-    #### Header 4
 #### Header 4
-    ##### Header 5  
+##### Header 5 
+###### Header 6 
+````
+# Header 1  
+Header 1
+=
+## Header 2
+Header 2
+- 
+### Header 3
+#### Header 4
 ##### Header 5 
 ###### Header 6 
 
