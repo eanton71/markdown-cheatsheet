@@ -131,27 +131,33 @@ __negrita__
 ~~this~~ 
 
 # Enlaces  
+````markdown
 http://www.enlace.com  
 <http://www.enlace.com>  
 [texto que se muestra](http://www.enlace.com)  
 
+````
+http://www.enlace.com  
+<http://www.enlace.com>  
+[texto que se muestra](http://www.enlace.com)  
+
+````markdown
 Enlace por referencia [mi enlace][web].
-
 El mismo enlace [el mismo enlace][web].
-
+[web]: http://enlace.com
+````
+Enlace por referencia [mi enlace][web].  
+El mismo enlace [el mismo enlace][web].  
 [web]: http://enlace.com
 
 Aquí hay [un enlace a otro lugar][otro lugar].  
 Aquí hay [otro enlace más][otro-enlace].  
 Y de nuevo regresamos al [primer enlace][otro lugar].  
-
 [otro lugar]: www.github.com  
 [otro-enlace]: www.google.com  
 
 ¿Quiere ver [algo divertido][un lugar divertido]?
-
 Bien, tengo [el sitio web para usted][otro sitio divertido]!
-
 [un lugar divertido]:(www.zombo.com)
 [otro sitio divertido]:(www.stumbleupon.com)
 
