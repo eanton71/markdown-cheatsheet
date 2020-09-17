@@ -197,11 +197,11 @@ cabecera | otro
 celda 1,2 | celda 2,1
 celda 1,2 | celda 2,2
 ## Imagenes   
-<div style="width:150px; height:100px"> 
  
-![Texto alternativo](https://github.com/eanton71/markdown-cheatsheet/blob/master/IMG_20200224_161708.jpg)
+ 
+![Texto alternativo|100x100](https://github.com/eanton71/markdown-cheatsheet/blob/master/IMG_20200224_161708.jpg)
 
-</div> 
+ 
 
 
 ## HTML
