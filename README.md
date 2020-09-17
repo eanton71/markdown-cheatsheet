@@ -192,14 +192,16 @@ def foo():
 ````
 
 ## Tablas
-cabecera | otro
+
+cabecera     | otro
 ------------ | -------------
-celda 1,2 | celda 2,1
-celda 1,2 | celda 2,2
+celda 1,2    | celda 2,1 
+celda 1,2    | celda 2,2
+
 ## Imagenes   
  
  
-![Texto alternativo|100x100](https://github.com/eanton71/markdown-cheatsheet/blob/master/IMG_20200224_161708.jpg)
+![Texto alternativo|100px x 100px](https://github.com/eanton71/markdown-cheatsheet/blob/master/IMG_20200224_161708.jpg)
 
  
 
