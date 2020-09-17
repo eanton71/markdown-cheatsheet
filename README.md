@@ -146,12 +146,12 @@ Enlace por referencia [mi enlace][web].
 El mismo enlace [el mismo enlace][web].
 [web]: http://enlace.com
 ````
-Enlace por referencia [mi enlace][web].  
-El mismo enlace [el mismo enlace][web].  
+Enlace por referencia [mi enlace] [web].  
+El mismo enlace [el mismo enlace] [web].  
 [web]: (http://enlace.com)  
 
-Aquí hay [un enlace a otro lugar][otro lugar].  
-Aquí hay [otro enlace más][otro-enlace].  
+[un enlace a otro lugar][otro lugar].  
+[otro enlace más][otro-enlace].  
 Y de nuevo regresamos al [primer enlace][otro lugar].  
 [otro lugar]: www.github.com  
 [otro-enlace]: www.google.com  
