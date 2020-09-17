@@ -1,8 +1,4 @@
-[1][2]  
-[4][3]  
-[2]: www.google.com  
-[3]: www.fsdfs.sfds  
-
+ 
 Titulo 
 ===
 ````markdown
@@ -101,7 +97,7 @@ segunda linea
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
+  - [x] this is a complete item
 - [ ] this is an incomplete item
 
 
@@ -147,13 +143,20 @@ http://www.enlace.com
 [texto que se muestra](http://www.enlace.com)  
 
 ````markdown
-Enlace por referencia [mi enlace][web].  
-El mismo enlace [el mismo enlace][web].  
-[web]: http://enlace.com
+Enlace por referencia [mi enlace][1].Espacio, Espacio  
+El mismo enlace [el mismo enlace][1].Espacio, Espacio, Enter
+
+[1]: http://enlace.com
 ````
-Enlace por referencia[enlace] [1].
-[el mismo enlace] [1].
+Enlace por referencia[enlace] [1].  
+[el mismo enlace] [1].  
+
 [1]: http://enlace.com 
+
+Some text with [a link][1] and  
+another [link][2]
+[1]: http://example.com/ "Title"
+[2]: http://example.org/ "Title"
 
 [un enlace a otro lugar][otro lugar].  
 [otro enlace más][otro-enlace].  
@@ -198,6 +201,15 @@ Content in the first column | Content in the second column
 16c999e8c71134401a78d4d46435517b2271d6ac  
 mojombo@16c999e8c71134401a78d4d46435517b2271d6ac  
 mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac  
+## HTML
+# elemento colapsable
+<details>
+  <summary>Abrir</summary>
+  
+>Con cien cañones por banda  
+viento en popa a toda vela
+
+</details>
 
 ## Referencias
 https://markdown.es/sintaxis-markdown
