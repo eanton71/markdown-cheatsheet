@@ -1,5 +1,7 @@
 This is [referencia][a] reference-style link.  
-[a]: http://example.com/  "titulo"
+[a]: http://example.com/  "titulo"  
+[1][2]  
+[2]:(www.google.com)  
 
 Titulo 
 ===
