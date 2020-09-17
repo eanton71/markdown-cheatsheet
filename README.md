@@ -1,3 +1,6 @@
+This is [an example][id] reference-style link.  
+[id]: http://example.com/  "Optional Title Here"
+
 Titulo 
 ===
 ````markdown
@@ -142,8 +145,8 @@ http://www.enlace.com
 [texto que se muestra](http://www.enlace.com)  
 
 ````markdown
-Enlace por referencia [mi enlace][web].
-El mismo enlace [el mismo enlace][web].
+Enlace por referencia [mi enlace][web].  
+El mismo enlace [el mismo enlace][web].  
 [web]: http://enlace.com
 ````
 Enlace por referencia[enlace] [1].
