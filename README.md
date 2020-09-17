@@ -1,5 +1,5 @@
-This is [an example][id] reference-style link.  
-[id]: http://example.com/  "Optional Title Here"
+This is [referencia][a] reference-style link.  
+[a]: http://example.com/  "titulo"
 
 Titulo 
 ===
