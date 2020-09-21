@@ -1,6 +1,8 @@
  
 Titulo 
 ===
+## Indice
+## Parrafos
 ````markdown
 Esto es un parrafo. Enter, Enter ...
 
@@ -41,11 +43,16 @@ Header 2
 
 # Citas
 ````markdown
+ 
+
 > Cita  
 
-> Cita en uno o varios parrafos (blockquote). **Espacio, Espacio, Enter**  
+> Cita en uno o varios parrafos (blockquote).  Espacio, Espacio, Enter  
 segunda linea
->> cita anidada  
+>> cita anidada
+>>> subcita anidada
+>
+> retorno 
 ````
 > Cita  
 
@@ -54,10 +61,9 @@ segunda linea
 >> cita anidada
 >>> subcita anidada
 >
-> retorno
-
->sdgdg
-# Listas
+> retorno 
+## Listas
+### Desordenadas
 ````markdown
 * una 
 - otra
@@ -72,17 +78,18 @@ segunda linea
   + subitem  
     * subsubitem
 * otro 
+### Ordenadas
 ```markdown
 1. Item 1  
-1. Item 2  
-1. Item 3  
+2. Item 2  
+3. Item 3  
     1. Item 3a  
-    1. Item 3b  
+    2. Item 3b  
         1. item 3ba  
-        1. item 3bb  
-    1. item 3c 
-    1. item 3d  
-1. item 4
+        2. item 3bb  
+    3. item 3c 
+    4. item 3d  
+4. item 4
 ````
 1. Item 1  
 1. Item 2  
@@ -94,16 +101,24 @@ segunda linea
     1. item 3c 
     1. item 3d  
 1. item 4
-
+### Listas de tareas
+````
 - [x] comprar pan
 - [x] ir al supermercado 
   - [x] comprar tomates
+  - [ ] comprar pimientos
+- [ ] comprar loteria
+````
+- [x] comprar pan
+- [x] ir al supermercado 
+  - [x] comprar tomates
+  - [ ] comprar pimientos
 - [ ] comprar loteria
 
 
 
 
-# lineas horizontales
+# Lineas horizontales
 ````markdown
 ***
 ---
@@ -115,7 +130,7 @@ ___
 ___
 
 
-# emfasis   
+# Enfasis   
 ````markdown
 *cursiva*  
 _cursiva_  
@@ -153,11 +168,15 @@ Enlace por referencia[enlace] [1].
 
 [1]: http://enlace.com 
 
-Some text with [a link][1] and  
-another [link][2]
-[1]: http://example.com/ "Title"
-[2]: http://example.org/ "Title"
+ 
+````
+[un enlace a otro lugar][otro lugar].  
+[otro enlace más][otro-enlace].  
+Y de nuevo regresamos al [primer enlace][otro lugar].  
 
+[otro lugar]: www.github.com  
+[otro-enlace]: www.google.com
+````
 [un enlace a otro lugar][otro lugar].  
 [otro enlace más][otro-enlace].  
 Y de nuevo regresamos al [primer enlace][otro lugar].  
@@ -165,43 +184,52 @@ Y de nuevo regresamos al [primer enlace][otro lugar].
 [otro lugar]: www.github.com  
 [otro-enlace]: www.google.com  
 
-¿Quiere ver [algo divertido][un lugar divertido]?
-Bien, tengo [el sitio web para usted][otro sitio divertido]!
-[un lugar divertido]:(www.zombo.com)
-[otro sitio divertido]:(www.stumbleupon.com)
-
-
+ 
+ 
+ 
 ## Codigo
-````
-bloque de codigo
-otra linea
-````
-Imprimir una linea en java``System.out.println("Hola Facundo")``
+Abriendo y cerrando con ````  
+````markdown 
+bloque de codigo  
+otra linea 
+````  
+Mostrar una linea de codigo en un texto: `System.out.println("Hola Facundo")`  
+Se puede indicar el lenguaje: \````javascript, \````python, etc...
 
 ```javascript
-function fancyAlert(arg) {
+function alerta(arg) {
   if(arg) {
-    $.facebox({div:'#foo'})
+    document.getElementById("id1").innerHTML = "Hola!";
   }
 }
 ```
 ```python
-def foo():
-    if not bar:
-        return True
+def negativo(arg):
+    if arg < 0 :
+      return True
+```
+ 
+## Tablas
+````
+*cabecera  izquierda*   | cab. derecha
+------------ | -------------
+celda 1,1    | celda 2,1 
+celda 1,2    | celda 2,2
 ````
 
-## Tablas
-
-cabecera     | otro
+**cabecera  izquierda**   | cab. derecha
 ------------ | -------------
-celda 1,2    | celda 2,1 
+celda 1,1    | celda 2,1 
 celda 1,2    | celda 2,2
 
 ## Imagenes   
+
+````
+![Texto alternativo](https://github.com/eanton71/markdown-cheatsheet/blob/master/IMG_20200224_161708.jpg)
+````
  
- 
-![Texto alternativo|100px x 100px](https://github.com/eanton71/markdown-cheatsheet/blob/master/IMG_20200224_161708.jpg)
+![Texto alternativo](https://github.com/eanton71/markdown-cheatsheet/blob/master/IMG_20200224_161708.jpg)
+
 
  
 
