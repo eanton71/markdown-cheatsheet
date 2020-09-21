@@ -1,8 +1,35 @@
  
-Titulo 
+Markdown cheatsheet    
 ===
-## Indice
-## Parrafos
+
+
+- [Markdown cheatsheet](#markdown-cheatsheet)
+  - [1.1. Parrafos](#11-parrafos)
+  - [1.2. Encabezados](#12-encabezados)
+- [Header 1](#header-1)
+- [Header 1](#header-1-1)
+  - [Header 2](#header-2)
+    - [Header 3](#header-3)
+      - [Header 4](#header-4)
+        - [Header 5](#header-5)
+          - [Header 6](#header-6)
+- [Header 1](#header-1-2)
+- [Header 1](#header-1-3)
+  - [Header 2](#header-2-1)
+    - [Header 3](#header-3-1)
+      - [Header 4](#header-4-1)
+        - [Header 5](#header-5-1)
+          - [Header 6](#header-6-1)
+  - [1.3. Citas](#13-citas)
+  - [1.4. Listas](#14-listas)
+    - [1.4.1. Desordenadas](#141-desordenadas)
+    - [1.4.2. Ordenadas](#142-ordenadas)
+  - [1.5. Tablas](#15-tablas)
+  - [1.6. Imagenes](#16-imagenes)
+  - [1.7. HTML](#17-html)
+    - [1.7.1. elemento colapsable](#171-elemento-colapsable)
+  - [1.8. Referencias](#18-referencias)
+## 1.1. Parrafos
 ````markdown
 Esto es un parrafo. Enter, Enter ...
 
@@ -15,7 +42,7 @@ Otro parrafo.
 Salto de linea en un parrafo.   
 
 
-## Encabezados
+## 1.2. Encabezados 
 Para encabezados 1 es valido # o = debajo del texto. Para encabezados 2: ## o - debajo del texto
 ````markdown
 
@@ -30,6 +57,8 @@ Header 2
 ##### Header 5 
 ###### Header 6 
 ````
+
+````
 # Header 1  
 Header 1
 =
@@ -40,8 +69,8 @@ Header 2
 #### Header 4
 ##### Header 5 
 ###### Header 6 
-
-# Citas
+````
+## 1.3. Citas
 ````markdown
  
 
@@ -62,8 +91,8 @@ segunda linea
 >>> subcita anidada
 >
 > retorno 
-## Listas
-### Desordenadas
+## 1.4. Listas
+### 1.4.1. Desordenadas
 ````markdown
 * una 
 - otra
@@ -78,7 +107,7 @@ segunda linea
   + subitem  
     * subsubitem
 * otro 
-### Ordenadas
+### 1.4.2. Ordenadas
 ```markdown
 1. Item 1  
 2. Item 2  
@@ -137,14 +166,14 @@ _cursiva_
 **negrita**  
 __negrita__  
 ***cursiva y negrita***  
-~~this~~ 
+~~tachado~~ 
 ````
 *cursiva*  
 _cursiva_  
 **negrita**  
 __negrita__  
 ***cursiva y negrita***  
-~~this~~ 
+~~tachado~~ 
 
 # Enlaces  
 ````markdown
@@ -209,20 +238,33 @@ def negativo(arg):
       return True
 ```
  
-## Tablas
+## 1.5. Tablas
+
 ````
-*cabecera  izquierda*   | cab. derecha
------------- | -------------
-celda 1,1    | celda 2,1 
-celda 1,2    | celda 2,2
+   | 1ª col | 2ª col |
+   | ------ | ------ |
+   | 1,1    | 2,1    |
+   | 1,2    | 2,2    |
 ````
 
-**cabecera  izquierda**   | cab. derecha
------------- | -------------
-celda 1,1    | celda 2,1 
-celda 1,2    | celda 2,2
+   | 1ª col | 2ª col |
+   | ------ | ------ |
+   | 1,1    | 2,1    |
+   | 1,2    | 2,2    |
+````
+|           | Alineacion |         |
+| :-------- | :--------: | ------: |
+| izquierda |   centro   | derecha |
+| 1,1       |    2,1     |     3,1 |
+| 1,2       |    2,2     |     3,2 |
+````
+|           | Alineacion |         |
+| :-------- | :--------: | ------: |
+| izquierda |   centro   | derecha |
+| 1,1       |    2,1     |     3,1 |
+| 1,2       |    2,2     |     3,2 |
 
-## Imagenes   
+## 1.6. Imagenes   
 
 ````
 ![Texto alternativo](https://github.com/eanton71/markdown-cheatsheet/blob/master/IMG_20200224_161708.jpg)
@@ -234,8 +276,9 @@ celda 1,2    | celda 2,2
  
 
 
-## HTML
-# elemento colapsable
+## 1.7. HTML   
+### 1.7.1. elemento colapsable   
+
 <details>
   <summary>Abrir</summary>
   
@@ -244,6 +287,7 @@ viento en popa a toda vela
 
 </details>
 
-## Referencias
+## 1.8. Referencias
 https://markdown.es/sintaxis-markdown
-   
+https://daringfireball.net/projects/markdown/
+https://www.markdowntutorial.com/es   
