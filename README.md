@@ -6,20 +6,6 @@ Markdown cheatsheet
 - [Markdown cheatsheet](#markdown-cheatsheet)
   - [1.1. Parrafos](#11-parrafos)
   - [1.2. Encabezados](#12-encabezados)
-- [Header 1](#header-1)
-- [Header 1](#header-1-1)
-  - [Header 2](#header-2)
-    - [Header 3](#header-3)
-      - [Header 4](#header-4)
-        - [Header 5](#header-5)
-          - [Header 6](#header-6)
-- [Header 1](#header-1-2)
-- [Header 1](#header-1-3)
-  - [Header 2](#header-2-1)
-    - [Header 3](#header-3-1)
-      - [Header 4](#header-4-1)
-        - [Header 5](#header-5-1)
-          - [Header 6](#header-6-1)
   - [1.3. Citas](#13-citas)
   - [1.4. Listas](#14-listas)
     - [1.4.1. Desordenadas](#141-desordenadas)
@@ -44,32 +30,8 @@ Salto de linea en un parrafo.
 
 ## 1.2. Encabezados 
 Para encabezados 1 es valido # o = debajo del texto. Para encabezados 2: ## o - debajo del texto
-````markdown
 
-# Header 1  
-Header 1
-=
-## Header 2
-Header 2
-- 
-### Header 3
-#### Header 4
-##### Header 5 
-###### Header 6 
-````
 
-````
-# Header 1  
-Header 1
-=
-## Header 2
-Header 2
-- 
-### Header 3
-#### Header 4
-##### Header 5 
-###### Header 6 
-````
 ## 1.3. Citas
 ````markdown
  
