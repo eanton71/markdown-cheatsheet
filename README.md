@@ -1,10 +1,28 @@
  
+<style>
+  img {width: 300px}
+</style>
+
 1. Markdown cheatsheet    
 ===
 
 - [1. Markdown cheatsheet](#1-markdown-cheatsheet)
   - [1.1. Parrafos](#11-parrafos)
-  - [1.2. Encabezados](#12-encabezados)-  
+  - [1.2. Encabezados](#12-encabezados)
+- [Header 1](#header-1)
+- [Header 1](#header-1-1)
+  - [Header 2](#header-2)
+    - [Header 3](#header-3)
+      - [Header 4](#header-4)
+        - [Header 5](#header-5)
+          - [Header 6](#header-6)
+- [Header 1](#header-1-2)
+- [Header 1](#header-1-3)
+  - [Header 2](#header-2-1)
+    - [Header 3](#header-3-1)
+      - [Header 4](#header-4-1)
+        - [Header 5](#header-5-1)
+          - [Header 6](#header-6-1)
   - [3.2. Citas](#32-citas)
   - [3.3. Listas](#33-listas)
     - [3.3.1. Desordenadas](#331-desordenadas)
