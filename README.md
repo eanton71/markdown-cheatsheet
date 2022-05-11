@@ -1,6 +1,6 @@
  
 <style>
-  img {width: 300px}
+  h2 {color: red}
 </style>
 
 1. Markdown cheatsheet    
